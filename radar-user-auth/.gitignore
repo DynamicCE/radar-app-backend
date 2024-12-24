@@ -31,3 +31,17 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Logs ###
+*.log
+logs/
+
+### Environment Variables ###
+.env
+application-*.properties
+!application.properties
+!application-test.properties
+
+### OS specific ###
+.DS_Store
+Thumbs.db
